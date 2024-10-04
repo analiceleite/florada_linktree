@@ -1,25 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { GlobalStyle, AppContainer } from './style';
+import Hero from './components/Hero/index'
+import Footer from './components/Footer/index';
+import LinkTree from './components/LinkList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <GlobalStyle />
+      <Hero />
+      <LinkTree />
+      <Footer />
+    </AppContainer>
   );
 }
 
