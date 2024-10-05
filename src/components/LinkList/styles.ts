@@ -8,6 +8,16 @@ export const ContainerList = styled.div`
     flex-direction: column;
     padding: 20px;  
     width: 40vw;
+
+    @media (max-width: 768px) {
+        width: 80vw; 
+        padding: 15px; 
+    }
+
+    @media (max-width: 480px) {
+        width: 90vw; 
+        padding: 10px; 
+    }
 `;
 
 export const Link = styled.a`

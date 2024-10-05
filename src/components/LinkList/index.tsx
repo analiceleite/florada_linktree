@@ -20,7 +20,7 @@ const LinkTree = () => {
             </Link>
             <Link href="https://link-para-comprar-pecas" target="_blank" rel="noopener noreferrer">
                 <FaShoppingBag size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
-                Compramos suas peças
+                Venda Suas Peças
             </Link>
         </ContainerList>
     );

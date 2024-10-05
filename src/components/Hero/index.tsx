@@ -1,18 +1,16 @@
-import { HeroContainer } from './styles'
-import { FaShoppingBag } from 'react-icons/fa';
-
+import { HeroContainer, LogoImage } from './styles';
+import Logo from '../../assets/hero.jpg';
 import Description from '../Description';
-
 
 const Hero = () => {
     return (
         <>
             <HeroContainer>
-                <FaShoppingBag />
+                <LogoImage src={Logo} alt="Logo Image" />
             </HeroContainer>
             <Description />
         </>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;
