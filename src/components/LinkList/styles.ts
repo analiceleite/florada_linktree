@@ -36,11 +36,5 @@ export const Link = styled.a`
     &:hover {
         background-color: ${colors.secondary};
         color: ${colors.card};
-        transform: scale(1.05); 
-        box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); 
-    }
-
-    &:active {
-        transform: scale(0.98);
     }
 `;
