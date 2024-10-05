@@ -28,7 +28,7 @@ export const Link = styled.a`
     border-radius: 8px;     
     width: 100%;  
     margin: 10px 0;       
-    font-size: 16px;       
+    font-size: 14px;       
     text-align: center; 
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
