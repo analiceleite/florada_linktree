@@ -22,7 +22,7 @@ const LinkTree = () => {
 
     return (
         <ContainerList>
-            <Link href="https://api.whatsapp.com/send?554733078069" target="_blank" ref={(el) => (linkRefs.current[0] = el)}>
+            <Link href="https://api.whatsapp.com/send?phone=554733078069" target="_blank" ref={(el) => (linkRefs.current[0] = el)}>
                 <FaWhatsapp size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
                 Fale Conosco
             </Link>
