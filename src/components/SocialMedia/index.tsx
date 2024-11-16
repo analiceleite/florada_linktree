@@ -26,7 +26,7 @@ const SocialMedia: React.FC = () => {
       <IconWrapper href="https://www.facebook.com/floradabrecho/" target="_blank" ref={(el) => (linkRefs.current[0] = el)}>
         <FaFacebook size={25} />
       </IconWrapper>
-      <IconWrapper href="https://wa.me/123456789" target="_blank" ref={(el) => (linkRefs.current[1] = el)}>
+      <IconWrapper href="https://api.whatsapp.com/send?phone=554733078069" target="_blank" ref={(el) => (linkRefs.current[1] = el)}>
         <FaWhatsapp size={25} />
       </IconWrapper>
       <IconWrapper href="https://www.instagram.com/floradabrecho/" target="_blank" ref={(el) => (linkRefs.current[2] = el)}>
