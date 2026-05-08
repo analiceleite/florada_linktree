@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { ContainerList, Link } from './styles';
-import { FaWhatsapp, FaUserFriends, FaChild, FaShoppingBag } from 'react-icons/fa';
+import { FaWhatsapp, FaUserFriends, FaChild } from 'react-icons/fa';
 import gsap from 'gsap';
 
 const LinkTree = () => {
@@ -36,10 +36,6 @@ const LinkTree = () => {
                 <FaWhatsapp size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
                 Fale Conosco
             </Link>
-            {/*             <Link href="https://link-para-comprar-pecas" target="_blank" ref={(el) => (linkRefs.current[3] = el)}>
-                <FaShoppingBag size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
-                Venda Suas Peças
-            </Link> */}
         </ContainerList>
     );
 };
