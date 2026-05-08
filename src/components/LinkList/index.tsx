@@ -22,21 +22,21 @@ const LinkTree = () => {
 
     return (
         <ContainerList>
-            <Link href="https://chat.whatsapp.com/H0lrDr0YehhBl2mT1h1eSp" target="_blank" ref={(el) => (linkRefs.current[1] = el)}>
+            <Link href="https://chat.whatsapp.com/H0IrDr0YehhBI2mT1h1eSp?mode=gi_t" target="_blank" ref={(el) => (linkRefs.current[1] = el)}>
                 <FaUserFriends size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
-                Grupo Vip - WhatsApp
+                Grupo Bazar
+            </Link>
+            <Link href="https://chat.whatsapp.com/Fqy64P1iC5l2PPnKnDGRJM?mode=gi_t" target="_blank" ref={(el) => (linkRefs.current[2] = el)}>
+                <div>
+                    <FaChild size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
+                    Grupo Infantil
+                </div>
             </Link>
             <Link href="https://api.whatsapp.com/send?phone=554733078069" target="_blank" ref={(el) => (linkRefs.current[0] = el)}>
                 <FaWhatsapp size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
                 Fale Conosco
             </Link>
-{/*             <Link href="https://link-para-o-grupo-infantil" target="_blank" ref={(el) => (linkRefs.current[2] = el)}>
-                <div>
-                    <FaChild size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
-                    WhatsApp - Grupo Infantil
-                </div>
-            </Link> */}
-{/*             <Link href="https://link-para-comprar-pecas" target="_blank" ref={(el) => (linkRefs.current[3] = el)}>
+            {/*             <Link href="https://link-para-comprar-pecas" target="_blank" ref={(el) => (linkRefs.current[3] = el)}>
                 <FaShoppingBag size={24} style={{ marginRight: '10px', verticalAlign: 'middle' }} />
                 Venda Suas Peças
             </Link> */}
